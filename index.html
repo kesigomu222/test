@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PALEO ARCHIVE | 古生物図鑑</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="intro">
+    <p>PALEO ARCHIVE</p>
+    <span>THE WORLD BEFORE US</span>
+  </div>
+
+  <header class="site-header">
+    <a class="logo" href="#">PALEO ARCHIVE</a>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#dinosaurs">DINOSAURS</a>
+      <a href="#timeline">TIMELINE</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <p class="eyebrow">A JOURNEY THROUGH PREHISTORY</p>
+        <h1>THE ANCIENT<br>WORLD</h1>
+        <p class="hero-description">
+          まだ人類が存在しなかった時代。<br>
+          地球に生きた古生物たちの記録。
+        </p>
+        <a class="explore-button" href="#dinosaurs">EXPLORE THE PAST ↓</a>
+      </div>
+
+      <div class="dino-art parallax">
+        <!-- 仮の恐竜イラスト。後からオリジナル画像に交換できる -->
+        <svg viewBox="0 0 600 340" role="img"
+             aria-label="アンキロサウルスのシルエット">
+          <g fill="#D9C69A" stroke="#102D31"
+             stroke-width="5" stroke-linejoin="round">
+            <path d="M105 210
+              Q130 155 205 150
+              L300 130 Q380 125 425 175
+              L475 195 Q510 205 520 235
+              L490 250 L450 245
+              Q430 280 405 280 L380 280
+              L375 235 L325 235 L315 285
+              L285 285 L280 235 L210 240
+              L200 285 L170 285 L165 230
+              Q130 240 105 230 Z"/>
+            <path d="M105 210
+              Q70 185 55 210
+              Q35 235 15 215
+              Q40 265 80 250
+              L115 235 Z"/>
+            <path d="M170 150 L195 115 L225 150
+              L250 105 L280 145 L310 105
+              L340 145 L375 125 L395 165 Z"/>
+            <path d="M425 180 Q455 150 485 180
+              L500 215 L450 220 Z"/>
+          </g>
+          <circle cx="470" cy="198" r="5" fill="#102D31"/>
+        </svg>
+      </div>
+
+      <div class="hero-note">EST. 230 MILLION YEARS AGO</div>
+    </section>
+
+    <section class="intro-section reveal">
+      <p class="eyebrow">WELCOME TO THE ARCHIVE</p>
+      <h2>生命の歴史を、たどる。</h2>
+      <p>
+        化石に残された小さな手がかりから、
+        遠い過去の生き物たちの姿を探してみよう。
+      </p>
+    </section>
+
+    <section class="dinosaur-section" id="dinosaurs">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — FOSSIL COLLECTION</p>
+        <h2>THE DINOSAURS</h2>
+        <p>太古の地球を歩いた生き物たち。</p>
+      </div>
+
+      <article class="dino-card reveal">
+        <div class="card-art">
+          <span>ANKYLOSAURIA</span>
+          <div class="fossil-mark">✳</div>
+        </div>
+        <div class="card-text">
+          <p class="eyebrow">01 / ARMORED DINOSAUR</p>
+          <h3>ANKYLOSAURUS</h3>
+          <p>全身を装甲で覆われた、白亜紀後期の鎧竜。</p>
+          <a href="#">READ THE RECORD ↗</a>
+        </div>
+      </article>
+
+      <article class="dino-card reverse reveal">
+        <div class="card-art second">
+          <span>STEGOSAURIA</span>
+          <div class="fossil-mark">✳</div>
+        </div>
+        <div class="card-text">
+          <p class="eyebrow">02 / PLATED DINOSAUR</p>
+          <h3>STEGOSAURUS</h3>
+          <p>背中に並ぶ大きな骨板が特徴的な恐竜。</p>
+          <a href="#">READ THE RECORD ↗</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="timeline reveal" id="timeline">
+      <p class="eyebrow">02 — GEOLOGICAL TIME</p>
+      <h2>THE HISTORY OF LIFE</h2>
+      <div class="timeline-line">
+        <p>TRIASSIC</p>
+        <p>JURASSIC</p>
+        <p>CRETACEOUS</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>PALEO ARCHIVE</p>
+    <span>AN EXPLORATION OF PREHISTORIC LIFE</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
